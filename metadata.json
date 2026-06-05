@@ -1,0 +1,6 @@
+{
+  "name": "English",
+  "description": "Accessible English learning app for seniors with high contrast UI, large text, and Hindi transliteration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
