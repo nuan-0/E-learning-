@@ -93,7 +93,7 @@ export const WORDS: Word[] = [
   { id: 'w31', englishWord: 'Boy', hindiTransliteration: 'बॉय', hindiMeaning: 'लड़का', emoji: '👦' },
   { id: 'w32', englishWord: 'Girl', hindiTransliteration: 'गर्ल', hindiMeaning: 'लड़की', emoji: '👧' },
   { id: 'w33', englishWord: 'Man', hindiTransliteration: 'मैन', hindiMeaning: 'आदमी', emoji: '👨' },
-  { id: 'w34', englishWord: 'Woman', hindiTransliteration: 'वुमन', hindiMeaning: 'औरत', emoji: '👩' },
+  { id: 'w34', englishWord: 'Woman', hindiTransliteration: 'वुमन', hindiMeaning: 'महिला', emoji: '👩' },
   { id: 'w35', englishWord: 'Pen', hindiTransliteration: 'पेन', hindiMeaning: 'कलम', emoji: '🖊️' },
   { id: 'w36', englishWord: 'Star', hindiTransliteration: 'स्टार', hindiMeaning: 'तारा', emoji: '⭐' },
   { id: 'w37', englishWord: 'Sky', hindiTransliteration: 'स्काई', hindiMeaning: 'आसमान', emoji: '🌌' },

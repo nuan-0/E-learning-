@@ -16,11 +16,10 @@ export default function App() {
   const [currentTab, setCurrentTab] = useState<Tab>('alphabets');
 
   return (
-    <div className="bg-[#121212] min-h-screen text-[#E0B0FF] flex flex-col font-sans select-none overflow-hidden touch-none">
+    <div className="bg-[#121212] h-[100dvh] w-screen text-[#E0B0FF] flex flex-col font-sans select-none overflow-hidden touch-none fixed inset-0">
       {/* Header */}
-      <header className="flex items-center justify-center py-4 sm:py-6 border-b-[3px] border-gray-800 shrink-0 px-2">
-        <BookOpen className="w-8 h-8 sm:w-10 sm:h-10 mr-3 sm:mr-4 shrink-0" strokeWidth={2.5} />
-        <h1 className="text-[32px] sm:text-[40px] font-bold leading-none tracking-tight truncate">English</h1>
+      <header className="flex items-center justify-center py-3 sm:py-5 border-b-[3px] border-gray-800 shrink-0 px-2">
+        <BookOpen className="w-10 h-10 sm:w-12 sm:h-12 shrink-0" strokeWidth={2.5} />
       </header>
 
       {/* Main Content Area */}

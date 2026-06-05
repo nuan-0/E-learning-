@@ -1,0 +1,17 @@
+{
+  "name": "English Learning App for Seniors",
+  "short_name": "English",
+  "description": "Accessible English learning app for reading and matching words.",
+  "start_url": "./",
+  "display": "fullscreen",
+  "background_color": "#121212",
+  "theme_color": "#E0B0FF",
+  "icons": [
+    {
+      "src": "book.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

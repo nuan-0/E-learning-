@@ -3,6 +3,28 @@ import {createRoot} from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
 
+if ('serviceWorker' in navigator) {
+  // Unregister any active service workers in development to prevent blank pages from cache issues
+  if (!import.meta.env.PROD) {
+    navigator.serviceWorker.getRegistrations().then((registrations) => {
+      for (const registration of registrations) {
+        registration.unregister();
+      }
+    });
+  } else {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js').then(
+        (registration) => {
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        },
+        (err) => {
+          console.log('ServiceWorker registration failed: ', err);
+        }
+      );
+    });
+  }
+}
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
