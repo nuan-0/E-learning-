@@ -1,6 +1,6 @@
 {
-  "name": "English Learning App for Seniors",
-  "short_name": "English",
+  "name": "E-learning",
+  "short_name": "E-learning",
   "description": "Accessible English learning app for reading and matching words.",
   "start_url": "./",
   "display": "fullscreen",
