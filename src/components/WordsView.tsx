@@ -49,13 +49,13 @@ export function WordsView() {
           onClick={handlePrev}
           className="flex-1 bg-transparent border-[4px] border-[#E0B0FF] text-[#E0B0FF] font-bold text-[28px] sm:text-[32px] py-6 sm:py-8 rounded-[32px] active:bg-[#E0B0FF]/10 transition-colors"
         >
-          Previous
+          पिछला
         </button>
         <button
           onClick={handleNext}
           className="flex-1 bg-[#E0B0FF] text-[#121212] font-bold text-[28px] sm:text-[32px] py-6 sm:py-8 rounded-[32px] active:bg-[#C991E8] transition-colors"
         >
-          Next
+          अगला
         </button>
       </div>
     </div>

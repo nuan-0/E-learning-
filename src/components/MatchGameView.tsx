@@ -110,7 +110,7 @@ export function MatchGameView() {
             onClick={handlePlayAgain}
             className="bg-[#E0B0FF] text-[#121212] font-bold text-[36px] sm:text-[48px] py-6 sm:py-8 px-8 sm:px-12 rounded-[40px] active:bg-[#C991E8] transition-colors"
           >
-            Play Again
+            फिर से खेलें
           </button>
         </motion.div>
       ) : (
